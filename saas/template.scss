@@ -1,0 +1,21 @@
+header, footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 42px;
+    ul
+    {
+        list-style-type: none;
+        display: flex;
+        li
+        {
+            margin-left: 22px;
+        }
+        a
+        {
+            color: red;
+            text-decoration: none;
+        }
+    }
+}
